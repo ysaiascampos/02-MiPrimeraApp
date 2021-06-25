@@ -19,22 +19,24 @@ const styles = StyleSheet.create({
         backgroundColor: '#28C4D9',
         flex: 1,
         flexDirection: 'row',
-        justifyContent: 'flex-end',
-        alignItems:'flex-end',
+        alignItems: 'flex-start',
     },
     caja1:{
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
+        alignSelf: 'center',
     },
     caja2:{
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
+        alignSelf:'flex-start',
     },
     caja3:{
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30,
+        alignSelf:'flex-end',
     }
 });
